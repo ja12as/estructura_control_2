@@ -1,4 +1,5 @@
 Algoritmo SumaNumerosPares
+	definir suma, par, i, n Como Entero
     Escribir "Ingrese un numero entero positivo: "
     Leer n
     i = 1

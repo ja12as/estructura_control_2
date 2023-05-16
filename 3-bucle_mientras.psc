@@ -1,4 +1,4 @@
-Algoritmo bucle_mientras2
+Algoritmo bucle_mientras
 	Definir num, inicial Como Real
 	Escribir "Ingrese un numero"
 	leer inicial
@@ -10,3 +10,4 @@ Algoritmo bucle_mientras2
 	FinMientras
 	Mostrar "el numero es menor que " inicial
 FinAlgoritmo
+

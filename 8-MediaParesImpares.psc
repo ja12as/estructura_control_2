@@ -1,4 +1,4 @@
-Proceso MediaParesImpares
+Algoritmo MediaParesImpares
     Definir contadorPares, contadorImpares, sumaPares, sumaImpares, numero Como Entero
     Definir mediaPares, mediaImpares Como Real
     
@@ -8,7 +8,7 @@ Proceso MediaParesImpares
     sumaImpares = 0
     
     Para i = 1 Hasta 10 Con Paso 1 Hacer
-        Escribir "Ingrese un número entero:"
+        Escribir "Ingrese un n?mero entero:"
         Leer numero
         
         Si numero MOD 2 = 0 Entonces
@@ -22,11 +22,11 @@ Proceso MediaParesImpares
     
     Si contadorPares > 0 Entonces
         mediaPares = sumaPares / contadorPares
-        Escribir "La media de los números pares es:", mediaPares
+        Escribir "La media de los n?meros pares es:", mediaPares
     FinSi
     
     Si contadorImpares > 0 Entonces
         mediaImpares = sumaImpares / contadorImpares
-        Escribir "La media de los números impares es:", mediaImpares
+        Escribir "La media de los n?meros impares es:", mediaImpares
     FinSi
-FinProceso
+FinAlgoritmo

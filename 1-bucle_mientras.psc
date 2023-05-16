@@ -4,7 +4,7 @@ Algoritmo bucle_mientras1
 	Escribir "Ingrese un numero"
 	leer num
 	Mientras num  >10
-		Escribir "Ingrese otro numero"
+		Escribir "Ingrese otro número"
 		leer num
 	FinMientras
 FinAlgoritmo
